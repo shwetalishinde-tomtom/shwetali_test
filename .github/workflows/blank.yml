@@ -8,7 +8,7 @@ on:
 
 jobs:
   start-vm:
-    runs-on: [az-weu-ubuntu-22.04-amd64-1cpu]
+    runs-on: [az-weu-ubuntu-24.04-amd64-05cpu]
 
     steps:
       - name: Checkout repository
